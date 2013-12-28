@@ -1,6 +1,6 @@
 # Introduction
 
-**NSDateComponents-CalendarUnits** was written by **[Eric Horacek](https://twitter.com/erichoracek)**
+**NSDateComponents-CalendarUnits** was written by **[Eric Horacek](https://twitter.com/erichoracek)**.
 
 NSDateComponents-CalendarUnits is a `NSDateComponents` category for getting and setting date components via `NSCalendarUnit` values.
 
