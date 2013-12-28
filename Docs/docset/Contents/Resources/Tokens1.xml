@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Categories/NSDateComponents+CalendarUnits.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cat/NSDateComponents(CalendarUnits)</TokenIdentifier>
+			<Abstract type="html">NSDateComponents category for getting and setting date components via NSCalendarUnit values.</Abstract>
+			<DeclaredIn>NSDateComponents+CalendarUnits.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDateComponents(CalendarUnits)/componentForCalendarUnit:</TokenIdentifier>
+			<Abstract type="html">Returns the date component for the specified NSCalendarUnit.</Abstract>
+			<DeclaredIn>NSDateComponents+CalendarUnits.h</DeclaredIn>			
+			
+			<Declaration>- (NSInteger)componentForCalendarUnit:(NSCalendarUnit)calendarUnit</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>calendarUnit</Name>
+					<Abstract type="html">The NSCalendarUnit that the date component should be returned for.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/componentForCalendarUnit:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/NSDateComponents(CalendarUnits)/setComponent:forCalendarUnit:</TokenIdentifier>
+			<Abstract type="html">Sets a date component as specified by a NSCalendarUnit.</Abstract>
+			<DeclaredIn>NSDateComponents+CalendarUnits.h</DeclaredIn>			
+			
+			<Declaration>- (void)setComponent:(NSInteger)component forCalendarUnit:(NSCalendarUnit)calendarUnit</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>component</Name>
+					<Abstract type="html">The component to be set on the NSDateComponents instance.</Abstract>
+				</Parameter><Parameter>
+					<Name>calendarUnit</Name>
+					<Abstract type="html">The calendar unit that the component should be set for.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/setComponent:forCalendarUnit:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

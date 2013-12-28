@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:docset="http://developer.apple.com/rss/docset_extensions" xml:lang="en">
+    <id>http://erichoracek.com/erichoracek/erichoracek.atom/20131228140038</id>
+    <title type="text">NSDateComponents-CalendarUnits Documentation</title>
+    <rights>Copyright © 2013 erichoracek. All rights reserved.</rights>
+    <link rel="self" href="http://erichoracek.com/erichoracek/erichoracek.atom"></link>
+    <docset:publisherName>erichoracek</docset:publisherName>
+    <docset:publisherID>com.erichoracek.documentation</docset:publisherID>
+    <updated>2013-12-28T14:00:38-08:00</updated>
+    <entry>
+        <id>tag:erichoracek.com,2013-12-28:com.erichoracek.NSDateComponents-CalendarUnits/1.0.0</id>
+        <title type="text">NSDateComponents-CalendarUnits Documentation</title>
+        <updated>2013-12-28T14:00:38-08:00</updated>
+        <content type="text">NSDateComponents-CalendarUnits Documentation (v1.0.0)</content>
+        <link rel="enclosure" type="application/octet-stream" href="http://erichoracek.com/erichoracek/com.erichoracek.NSDateComponents-CalendarUnits-1.0.xar" length="29677"></link>
+        <docset:identifier>com.erichoracek.NSDateComponents-CalendarUnits</docset:identifier>
+        <docset:version>1.0.0</docset:version>
+        <docset:minimumXcodeVersion>3.0.0</docset:minimumXcodeVersion>
+    </entry>
+</feed>
