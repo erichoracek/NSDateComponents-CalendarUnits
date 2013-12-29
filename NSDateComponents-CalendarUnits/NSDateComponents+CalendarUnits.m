@@ -45,39 +45,39 @@
     NSAssert1(((calendarUnit & (calendarUnit - 1)) == 0), @"calendarUnit (%@) must not be a masked value", @(calendarUnit));
     switch (calendarUnit) {
         case NSCalendarUnitEra:
-            return @"era";
+            return NSStringFromSelector(@selector(era));
         case NSCalendarUnitYear:
-            return @"year";
+            return NSStringFromSelector(@selector(year));
         case NSCalendarUnitMonth:
-            return @"month";
+            return NSStringFromSelector(@selector(month));
         case NSCalendarUnitDay:
-            return @"day";
+            return NSStringFromSelector(@selector(day));
         case NSCalendarUnitHour:
-            return @"hour";
+            return NSStringFromSelector(@selector(hour));
         case NSCalendarUnitMinute:
-            return @"minute";
+            return NSStringFromSelector(@selector(minute));
         case NSCalendarUnitSecond:
-            return @"second";
+            return NSStringFromSelector(@selector(second));
         case NSCalendarUnitWeekday:
-            return @"weekday";
+            return NSStringFromSelector(@selector(weekday));
         case NSCalendarUnitWeekdayOrdinal:
-            return @"weekdayOrdinal";
+            return NSStringFromSelector(@selector(weekdayOrdinal));
         case NSQuarterCalendarUnit:
-            return @"quarter";
+            return NSStringFromSelector(@selector(quarter));
         case NSWeekOfMonthCalendarUnit:
-            return @"weekOfMonth";
+            return NSStringFromSelector(@selector(weekOfMonth));
         case NSCalendarUnitWeekOfYear:
-            return @"weekOfYear";
+            return NSStringFromSelector(@selector(weekOfYear));
         case NSCalendarUnitYearForWeekOfYear:
-            return @"yearForWeekOfYear";
+            return NSStringFromSelector(@selector(yearForWeekOfYear));
 #if __MAC_OS_X_VERSION_MAX_ALLOWED >= 1070 || __NSCALENDAR_COND_IOS_5_0
         case NSCalendarUnitNanosecond:
-            return @"nanosecond";
+            return NSStringFromSelector(@selector(nanosecond));
 #endif
         case NSCalendarUnitCalendar:
-            return @"calendar";
+            return NSStringFromSelector(@selector(calendar));
         case NSCalendarUnitTimeZone:
-            return @"timeZone";
+            return NSStringFromSelector(@selector(timeZone));
         default:
             NSAssert1(NO, @"Invalid Calendar Unit: %@", @(calendarUnit));
             return nil;
