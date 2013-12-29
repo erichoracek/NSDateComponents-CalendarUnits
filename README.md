@@ -4,6 +4,8 @@
 
 NSDateComponents-CalendarUnits is a `NSDateComponents` category for getting and setting date components via `NSCalendarUnit` values.
 
+These methods were intended to be exposed as an API in iOS7 by Apple, but didn't make it in for the final release. See lines `473-507` of `NSCalendar.h` and note that the magical `NS_ENABLE_CALENDAR_NEW_API` is not defined.
+
 # Documentation
 
 ## CocoaDocs
